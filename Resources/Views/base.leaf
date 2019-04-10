@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>#get(title)</title>
-	<link rel="stylesheet" href="/styles/app.css">
-</head>
-<body>
-    #get(body)
-</body>
+    <head>
+        <title>#get(title)</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    </head>
+    <body class="container">
+        #get(body)
+    </body>
 </html>

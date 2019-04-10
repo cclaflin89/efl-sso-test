@@ -1,0 +1,19 @@
+#set("title") { SSO Test }
+
+#set("body") {
+    <br />
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title">Profile</h3>
+                    <p>Email: #(user.email)</p>
+                    <a href="/logout" class="btn btn-block btn-danger">
+                        logout
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+#embed("base")
